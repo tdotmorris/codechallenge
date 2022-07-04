@@ -6,13 +6,10 @@ const findSum = function (array) {
     } 
     return add;
   }
-console.log(findSum([2, 4, 6]));
-
 
 // const findFrequency = function (array) {
     
 // };
-
 
 const isPalindrome = function (str) {
     const arrayValues = string.split('');
@@ -27,7 +24,6 @@ const isPalindrome = function (str) {
 const string = prompt('Enter a string: ');
 isPalindrome(string);
 
-
 const largestPair = function (array) {
     let max = -Infinity;
     for (let i = 1; i < array.length; i++) {
@@ -36,11 +32,9 @@ const largestPair = function (array) {
     return max;
 };
 
-
 const removeParenth = function (str) {
     let newStr = str.replace(/[{()}]/g, '')
 };
-
 
 const scoreScrabble = function (str) {
     let newAlphabet = { a: 1, e: 1, i: 1, o: 1, u: 1, l: 1, n: 1, r: 1, s: 1, t: 1, d: 2, g: 2, b: 3, c: 3, m: 3, p: 3, f: 4, h: 4, v: 4, w: 4, y: 4, k: 5, j: 8, x: 8, q: 10, z: 10 },
